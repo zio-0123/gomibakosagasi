@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.controls {
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+#map {
+    flex-grow: 1;
+}
+
+#editControls {
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
